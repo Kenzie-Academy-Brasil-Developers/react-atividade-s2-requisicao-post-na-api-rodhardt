@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  background-color: rgb(248, 244, 244, 0.8);
+  border-radius: 10px;
+  padding: 15px 0;
+  max-width: 560px;
+}
+
+p {
+  width: 95%;
+  font-size: 1.5rem;
+  height: 2rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: bold;
+  background-color: rgb(248, 244, 244, 0.8);
+  border-radius: 10px;
+}
+
+input {
+  max-width: 400px;
+  padding: 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 0.9rem;
+  height: 1.8rem;
+  text-indent: 10px;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  padding: 12px 20px;
+  margin: 15px auto;
+}
+
+.success {
+  color: rgb(3, 75, 3);
+  background-color: greenyellow
+}
+
+.fail {
+  color: rgb(138, 3, 3);
+  background-color:rgb(233, 143, 143);
+}
